@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 300 900;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #1f1f1f;
+    width: 375px;
+    height: auto;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.profile img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.profile h1{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#localisation{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c5f82a;
+    margin-bottom: 40px;
+}
+
+#bio{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.links-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    gap: 18px;
+}
+
+.personnal-links ul{
+    list-style: none;
+}
+
+.links-items li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.links-items li a:hover{
+    color: black;
+    background-color: #c5f82a;
+}
+
+.attribution{
+    padding: 5px 0px;
+    font-size: 0.6875rem; 
+    text-align: center;
+    color: white;
+}
+
+.attribution a{
+    color: rgb(62, 82, 163);
+}
